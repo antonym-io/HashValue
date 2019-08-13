@@ -1,0 +1,33 @@
+{
+  "name": "hashvalue",
+  "version": "1.0.0",
+  "description": "Solidity project to allow association of a hash value to an Ethereum address",
+  "main": "index.js",
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonym-io/HashValue.git"
+  },
+  "keywords": [
+    "ethereum",
+    "hash",
+    "address",
+    "antonym"
+  ],
+  "author": "Paul Sonier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonym-io/HashValue/issues"
+  },
+  "homepage": "https://github.com/antonym-io/HashValue#readme",
+  "dependencies": {
+    "openzeppelin-solidity": "^2.3.0",
+    "truffle": "^5.0.31",
+    "truffle-assert": "^0.9.1",
+    "truffle-assertions": "^0.9.1",
+    "truffle-hdwallet-provider": "^1.0.16",
+    "web3": "^1.2.1"
+  }
+}
